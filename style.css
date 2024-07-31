@@ -80,12 +80,12 @@
 
 
 
-/*.menu{
+.menu{
     aspect-ratio: 2/1; 
     margin: auto;
     border: solid black 2px;
     overflow-x: scroll;
-    overflow-y: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
     scroll-snap-type: x ;
   }
@@ -93,14 +93,15 @@
   
   .p-card {
       background-color: lightblue;
-      /* height: 100%; */
-/*aspect-ratio: 1/2;
+      height: 100%; 
+      
+      aspect-ratio: 1/5;
       display: inline-block;
-      /* margin: 5px; */
-/*scroll-snap-align: center;
+       margin: 5px; 
+      scroll-snap-align: center;
     }
 
-*/
+
 
 
 
