@@ -1,3 +1,9 @@
+.body {
+    background-color: rgb(243, 232, 209);
+
+}
+
+
 /*HERO*/
 .header {
     height: 100vh;
@@ -9,7 +15,7 @@
     flex-direction: column;
     position: relative;
     z-index: 1;
-    
+
 }
 
 .header,
@@ -23,16 +29,17 @@
     border-radius: 0%;
 }
 
-.hero-img-bg{
+.hero-img-bg {
     position: absolute;
-    
-   
+
+
 }
+
 .hero-subtitle {
     color: orange;
     font-family: 'Shadows Into Light', sans-serif;
     font-size: 40px;
-    
+
 }
 
 .hero-title {
@@ -45,6 +52,12 @@
     color: rgb(241, 214, 198);
     font-size: 20px;
 }
+
+.hero-banner {
+    float: left;
+
+}
+
 .header::before {
     content: '';
     position: absolute;
@@ -52,7 +65,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Opacity for better readability */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Opacity for better readability */
     z-index: -1;
 }
 
@@ -61,4 +75,103 @@
 .navbar {
     transition: background-color 0.5s;
     background: none;
+}
+
+
+
+
+/*.menu{
+    aspect-ratio: 2/1; 
+    margin: auto;
+    border: solid black 2px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+    scroll-snap-type: x ;
+  }
+  
+  
+  .p-card {
+      background-color: lightblue;
+      /* height: 100%; */
+/*aspect-ratio: 1/2;
+      display: inline-block;
+      /* margin: 5px; */
+/*scroll-snap-align: center;
+    }
+
+*/
+
+
+
+
+/*ABOUT*/
+
+.about-img {
+    position: absolute;
+    transform: scale(1);
+    left: 200px;
+}
+
+.scale-up-anim {
+    animation: scaleUp 1s linear infinite alternate;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.icon-circle {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.icon-circle .check-icon {
+    color: white;
+    font-size: 16px;
+}
+
+.check-item {
+    font-size: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-order {
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.btn-order:hover {
+    background-color: black;
+}
+
+/*FOOD MENU*/
+.food-menu{
+    background-color:rgb(249,246,240) ;
+    width: 100%;
+    height: 100%;
 }
