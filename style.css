@@ -25,8 +25,9 @@
 }
 
 .btn {
-    background-color: rgb(233, 121, 23);
-    border-radius: 0%;
+    background-color: rgb(233, 121, 23) !important;
+    border-radius: 0% !important;
+    color: white !important;
 }
 
 .hero-img-bg {
@@ -128,9 +129,6 @@
     
     }
 
-    
-
-    
 
     .p-card:hover .card-body p {
         color: bisque !important;
@@ -141,14 +139,6 @@
     }
 
     
-
-
-   
-
-  
-
-
-
 
 /*ABOUT*/
 
@@ -218,7 +208,7 @@
 .food-menu{
     background-color:rgb(249,246,240) ;
 }
-.fiter-list {
+.filter-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -229,7 +219,7 @@
   .filter-btn {
     background-color: white;
     color:black;
-   margin: 5px;
+    margin: 5px;
     font-family: var(--ff-rubik);
     font-weight: var(--fw-500);
     padding: 5px 20px;
@@ -240,3 +230,27 @@
     background-color: orange;
     
   }
+
+ .sec-hero {
+    background: url('assest/hero-bg.jpg') no-repeat center center/cover;
+    background-size: cover;
+    height: 500px;
+}
+
+.quality{
+    color: orange;
+    
+}
+
+.burger-img{
+    position: absolute;
+}
+
+.sale-img{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-left: 50px;
+    margin-top: 95px;
+    animation: scaleUp 1s linear infinite alternate;
+}
